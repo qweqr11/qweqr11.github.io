@@ -9,10 +9,11 @@ function playSound(sound) {
     song.play();
     // document.getElementById('vidos').play();
     const button = document.getElementById("boton");
+    const r = document.querySelector('.ss');
     document.body.style.backgroundImage = "url('piska.jpg')";
 
     button.style.display = "none";
-
+    r.style.display = 'none'
   } else {
     song.pause();
   }
